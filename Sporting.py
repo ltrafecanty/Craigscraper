@@ -37,7 +37,7 @@ for url in post_URLS:
 
 
 
-img = cv2.imread('assets/surf3.jpg')
+img = cv2.imread('assets/board1.jpg')
 gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 fast = cv2.FastFeatureDetector_create()
